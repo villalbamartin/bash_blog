@@ -1,0 +1,22 @@
+.tweet img
+{
+	float: left;
+	width: 55px;
+	margin-right: 15px;
+}
+.tweet h2
+{
+	margin-left: 60px;
+	margin-bottom: 0px;
+}
+.tweet h2 em
+{
+	font-style: normal;
+	font-weight: normal;
+	font-size:medium;
+	color:rgb(150,150,150);
+}
+.tweet p
+{
+	margin: 0px 60px;
+}

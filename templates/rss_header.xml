@@ -9,7 +9,7 @@
 	>
 <channel>
 	<atom:link href="https://www.example.com/blog/rss.xml" rel="self" type="application/rss+xml" />
-	<title>Martin's blog</title>
+	<title>My blog</title>
 	<link>http://www.example.com/blog</link>
 	<description>RSS feed of my blog, where I publish random ideas and projects.</description>
 	<language>en-us</language>

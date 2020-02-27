@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Static blog generator, by Martin
+# Static blog generator
 #
 # I'm fairly sure there's a good reason I'm doing this by hand, but right now I
 # can't think of anything. Anyway, this script updates the blog status
