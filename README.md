@@ -21,3 +21,10 @@ source variables.cfg
 
 If your variables are properly set, running the `generate.sh` script should
 output your entire website to wherever your `BASE_DIR` variable says it should.
+
+
+Setting everything up
+---------------------
+For the time being, the "proper" way to set everything up is to look for all
+files where I wrote `example.com` and replace it with the proper URL. I'll
+write a proper install guide (or maybe even a script) once I have the time.
