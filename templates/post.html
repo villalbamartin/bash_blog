@@ -1,0 +1,13 @@
+					<header class="post-header">
+						<h2 class="post-title"><TMPL_VAR NAME=TITLE></h2>
+
+						<p class="post-meta">
+							<!-- Posted on <a href="#" class="post-author"><TMPL_VAR NAME=DATE></a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a>-->
+							Posted on <a href="#" class="post-author"><TMPL_VAR NAME=DATE></a> under <TMPL_VAR NAME=CATEGORIES>
+						</p>
+					</header>
+
+					<div class="post-description <TMPL_VAR NAME=WIDTH>">
+						<!-- the text should be on its own line -->
+						<TMPL_VAR NAME=TEXT>
+					</div>

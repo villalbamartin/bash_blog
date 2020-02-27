@@ -1,0 +1,6 @@
+	<item>
+	<title><TMPL_VAR NAME=TITLE></title>
+	<link><TMPL_VAR NAME=LINK></link>
+	<pubDate><TMPL_VAR NAME=DATE></pubDate>
+	<description><![CDATA[<TMPL_VAR NAME=TEXT>]]></description>
+	</item>

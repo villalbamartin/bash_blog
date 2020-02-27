@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="<TMPL_VAR NAME=TITLE> -- My blog">
+	<link rel="alternate" type="application/rss+xml" title="My Blog RSS" href="http://example.com/blog/rss.xml" />
+
+
+	<title><TMPL_VAR NAME=TITLE> - My blog</title>
+
+	<link rel="stylesheet" href="/css/pure/0.5.0-rc-1/pure-min.css">
+	<style>
+		.footer p
+		{
+			color: rgb(120,120,120);
+		}
+	</style>
+  
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" href="/blog/css/main-grid-old-ie.css">
+		<link rel="stylesheet" href="/blog/css/layouts/blog-old-ie.css">
+	<![endif]-->
+	<!--[if gt IE 8]><!-->
+		<link rel="stylesheet" href="/blog/css/main-grid.css">
+		<link rel="stylesheet" href="/blog/css/layouts/blog.css">
+	<!--<![endif]-->
+	<link rel="stylesheet" href="/blog/css/tweets.css">
+	<script src="/blog/js/blog.js"></script>
+	<script src="/mathjax/MathJax.js?config=default"></script>
+</head>
+<body>
+<!-- Navigation bar -->
+<div class="pure-menu	pure-menu-open	pure-menu-horizontal
+				pure-menu-fixed">
+	<a href="https://www.example.com" class="pure-menu-heading">example.com</a>
+	<ul>
+		<li class="pure-menu">
+			<a href="/">Home</a>
+		</li>
+		<li class="pure-menu">
+			<a href="/about.html">About me</a>
+		</li>
+		<li class="pure-menu-selected">
+			<a href="/blog">Blog</a>
+		</li>
+	</ul>
+</div>
+<!-- Blog content -->
+<div id="layout" class="pure-g">
+	<div class="sidebar pure-u-1 pure-u-med-1-4">
+		<div class="header">
+			<hgroup>
+				<h1 class="brand-title"><a href="/blog/">My personal blog</a></h1>
+				<h2 class="brand-tagline"><script>document.write(random_tagline());</script></h2>
+				<h3 style="float:right;">
+					<a href="http://www.twitter.com/"><img src="/img/twitter.png" alt="Twitter" title="Twitter" /></a>
+					<a href="/blog/rss.xml"><img src="/img/rss.png" alt="RSS" title="RSS" /></a>
+					<a href="/blog/archive.html"><img src="/img/archive.png" alt="Archive" title="Archive" /></a>
+				</h3>
+			</hgroup>
+		</div>
+	</div>
+
+	<div class="content pure-u-1 pure-u-med-3-4">
+		<div>
