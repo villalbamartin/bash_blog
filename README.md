@@ -32,6 +32,7 @@ If your variables are properly set, running the `generate.sh` script should
 output your entire website to wherever your `BASE_DIR` variable says it should.
 
 
+
 Is this blog platform for me?
 -----------------------------
 No. I wrote this code because I wanted to challenge myself, and for that
